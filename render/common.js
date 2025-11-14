@@ -22,7 +22,7 @@ function render(items, theme = 'light') {
     textTags += renderText(items[i]);
   }
 
-  return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='382' height='195' viewBox='0 0 382 195'>
+  return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='400' height='195' viewBox='0 0 400 195'>
   <defs>
     <filter id='Card' x='0' y='0' width='382' height='210' filterUnits='userSpaceOnUse'>
       <feOffset dy='3' input='SourceAlpha'/>
